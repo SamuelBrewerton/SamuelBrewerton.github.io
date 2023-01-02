@@ -5,7 +5,7 @@
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,24 +13,36 @@
     text-align: center;
     height: 100vh;
     color: black;
+    background-color: turquoise;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/37/Color_icon_red.png");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   #time {
-    font-size: 8rem;
+    font-size: 160px;
+    color: white;
   }
   
+
   h1 {
-    margin-bottom: 3rem;
+    margin-bottom: 48px;
+    
+  }
+
+  #paragraph {
+    font-size: 70px;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.5);
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+    background-clip: text;
+
   }
   
   h2 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
     opacity: 0.6;
   }
   
-  @media (max-width: 700px) {
-    #time {
-      font-size: 6rem;
-    }
-  }
   
